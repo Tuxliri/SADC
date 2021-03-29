@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm/R2020a">
+  <slsa.mm.MaskTree type="slsa.mm.MaskTree" uuid="0a1cd108-44b3-4147-8eae-a049809ebb09">
+    <maskedBlocks type="slsa.mm.MaskedBlock" uuid="ef433d12-c3c3-4eae-a7cb-e1fbc23f63c4">
+      <blockPath>Final_project/ATTITUDE DETERMINATION/QUEST Attitude Determination</blockPath>
+      <id>Final_project:577</id>
+      <masks type="slsa.mm.Mask" uuid="f8ac47b0-cb7f-4a1d-b8e4-cd96bd97f223">
+        <dialogParameters type="slsa.mm.DialogParameterInfo" uuid="b87b8c49-80f9-415c-aee4-e8d68deac6b9">
+          <expression>QUEST</expression>
+          <name>QUEST</name>
+        </dialogParameters>
+        <skipInitializationCode>true</skipInitializationCode>
+      </masks>
+      <parentId>root</parentId>
+    </maskedBlocks>
+    <maskedBlocks type="slsa.mm.MaskedBlock" uuid="d8445f87-d35a-4f03-a660-17e13334256b">
+      <childrenIds>Final_project:577</childrenIds>
+      <id>root</id>
+    </maskedBlocks>
+  </slsa.mm.MaskTree>
+</MF0>
